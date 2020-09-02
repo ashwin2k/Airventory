@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/card_white"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today, 8:43PM"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/product_regular"
+        android:id="@+id/timestamp"
+        android:textSize="15dp"
+        android:textColor="#16073D"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TUX19MAA007"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/product_bold"
+        android:layout_below="@id/timestamp"
+        android:id="@+id/scanid"
+        android:textSize="25dp"
+        android:textColor="#16073D"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Engines, Boeing 777"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/product_italic"
+        android:layout_below="@id/scanid"
+        android:id="@+id/category"
+        android:textSize="15dp"
+        android:textColor="#16073D"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="70dp"
+        android:src="@drawable/download"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

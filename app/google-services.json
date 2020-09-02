@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "157061311042",
+    "firebase_url": "https://sihairventory.firebaseio.com",
+    "project_id": "sihairventory",
+    "storage_bucket": "sihairventory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157061311042:android:540d9ab77bd79117ee9bdb",
+        "android_client_info": {
+          "package_name": "com.ashwin2k.airventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157061311042-uh9t843haof1s278lkml8jjbblp1u8h2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyjhLPyiKjgX5NP6Dtrs6VKU3BUewSIFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157061311042-uh9t843haof1s278lkml8jjbblp1u8h2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

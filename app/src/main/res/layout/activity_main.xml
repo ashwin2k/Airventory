@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="30dp"
+            android:layout_centerInParent="true"
+            android:textColor="#16073D"
+            android:fontFamily="@font/astro_boy"
+            android:text="AirVentory"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textFontWeight="400"
+        android:text="12th January"
+        android:fontFamily="@font/product"
+        android:textSize="25dp"
+        android:id="@+id/date"
+
+        android:layout_below="@id/topbar"
+        android:textColor="#16073D"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="250dp"
+        android:layout_below="@id/date"
+        android:id="@+id/placeholdgrad"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ic_gradline"
+        android:layout_height="7dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:id="@+id/recentlist"
+        android:layout_below="@id/placeholdgrad"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="12:59AM"
+        android:textColor="#7D7D7D"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/date"
+        android:fontFamily="@font/product"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="SCAN"
+        android:background="@drawable/ic_buttonbg"
+        android:id="@+id/scan_button"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
